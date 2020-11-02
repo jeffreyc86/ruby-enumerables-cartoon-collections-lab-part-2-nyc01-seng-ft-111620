@@ -16,6 +16,8 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |s|
     if s.count > 4
     return TRUE
+    else
+    return FALSE
     end
   end
 end
